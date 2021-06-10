@@ -1,7 +1,7 @@
-# PHP Project Level 3
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/AlexeyShobanov/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AlexeyShobanov/python-project-lvl1/actions)
+# Python Project Level 1
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Actions Status]](https://github.com/AlexeyShobanov/python-project-lvl1/actions)
 
-[![Python CI](https://github.com/AlexeyShobanov/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/AlexeyShobanov/python-project-lvl1/actions/workflows/github-actions.yml)
+[![Maintainability]](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+
+[![Python CI]](https://github.com/AlexeyShobanov/python-project-lvl1/actions/workflows/github-actions.yml)
