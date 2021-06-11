@@ -7,3 +7,5 @@
 https://asciinema.org/a/MtlknIHWk7IH0rgJWfAZ0HeaE
 ### Asciinema for step 6 (Brain-Calc Game):
 https://asciinema.org/a/41UmOEYQmxROYsDfsoMPSzyrs
+### Asciinema for step 6 (Brain-GCD Game):
+https://asciinema.org/a/La6os1zhvbNDcSP4LG9RiEZjZ
