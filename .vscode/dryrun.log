@@ -1,0 +1,4 @@
+make: Entering directory '/home/alexey/py_project/python-project-lvl1'
+poetry install
+make: Leaving directory '/home/alexey/py_project/python-project-lvl1'
+ 
