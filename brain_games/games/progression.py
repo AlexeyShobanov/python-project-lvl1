@@ -1,5 +1,6 @@
 from random import randint
 from brain_games.cli import check_answer
+from brain_games.run_game import run_game
 
 
 def make_progression(base, increment, hiding_posission, progression_length):
@@ -30,3 +31,9 @@ def game_progression():
     right_answer = str(base + increment * (hiding_posission - 1))
     question = "{}".format(progression_stringify)
     return check_answer(question, right_answer)
+
+
+def run_game_progression():
+    description = 'What number is missing in the progression?'
+    run_game(description, game_progression)
+    return

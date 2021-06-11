@@ -1,5 +1,6 @@
 from random import randint
 from brain_games.cli import check_answer
+from brain_games.run_game import run_game
 
 
 def get_random_operator(index):
@@ -25,3 +26,9 @@ def game_calc():
     right_answer = str(calc_expression(num1, num2, operator))
     question = "{} {} {}".format(num1, operator, num2)
     return check_answer(question, right_answer)
+
+
+def run_game_calc():
+    description = 'What is the result of the expression?'
+    run_game(description, game_calc)
+    return

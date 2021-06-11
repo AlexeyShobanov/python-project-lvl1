@@ -7,7 +7,9 @@
 https://asciinema.org/a/MtlknIHWk7IH0rgJWfAZ0HeaE
 ### Asciinema for step 6 (Brain-Calc Game):
 https://asciinema.org/a/41UmOEYQmxROYsDfsoMPSzyrs
-### Asciinema for step 6 (Brain-GCD Game):
+### Asciinema for step 7 (Brain-GCD Game):
 https://asciinema.org/a/La6os1zhvbNDcSP4LG9RiEZjZ
-### Asciinema for step 6 (Brain-Progression Game):
+### Asciinema for step 8 (Brain-Progression Game):
 https://asciinema.org/a/zPzx2Cc3pOenDcXHNOYBV5YWA
+### Asciinema for step 9 (Brain-Prime Game):
+https://asciinema.org/a/Nyz8VbEfLaEJIfJ0QNK0JdhHm
