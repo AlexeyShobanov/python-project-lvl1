@@ -22,6 +22,6 @@ def game_calc():
     num1 = randint(1, 99)
     num2 = randint(1, 99)
     operator = get_random_operator(randint(1, 3))
-    rightAnswer = str(calc_expression(num1, num2, operator))
+    right_answer = str(calc_expression(num1, num2, operator))
     question = "{} {} {}".format(num1, operator, num2)
-    return check_answer(question, rightAnswer)
+    return check_answer(question, right_answer)

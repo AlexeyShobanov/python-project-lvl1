@@ -13,6 +13,6 @@ def find_gcd(num1, num2):
 def game_gcd():
     num1 = randint(1, 99)
     num2 = randint(1, 99)
-    rightAnswer = str(find_gcd(num1, num2))
+    right_answer = str(find_gcd(num1, num2))
     question = "{} {}".format(num1, num2)
-    return check_answer(question, rightAnswer)
+    return check_answer(question, right_answer)

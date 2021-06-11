@@ -8,5 +8,5 @@ def isEven(number):
 
 def game_even():
     number = randint(1, 99)
-    rightAnswer = "yes" if isEven(number) else "no"
-    return check_answer(number, rightAnswer)
+    right_answer = "yes" if isEven(number) else "no"
+    return check_answer(number, right_answer)
