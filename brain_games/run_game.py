@@ -10,5 +10,5 @@ def run_game(description, game):
             print("Let's try again, {}".format(name))
             return
         i += 1
-    print("Congratulations, {}".format(name))
+    print("Congratulations, {}!".format(name))
     return

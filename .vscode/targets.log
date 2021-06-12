@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 11 10:05:55 2021
+# Make data base, printed on Sat Jun 12 17:37:24 2021
 
 # Variables
 
@@ -45,9 +45,9 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-_ = /usr/share/code/code
+_ = /usr/bin/dbus-update-activation-environment
 # environment
-JOURNAL_STREAM = 8:44295
+JOURNAL_STREAM = 8:41213
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -67,9 +67,9 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1215
+MANAGERPID = 1189
 # environment
-LESSOPEN = | /usr/bin/lesspipe %s
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a9120c96-fb5c-4e3d-b218-2aacfa87215d.sock
 # environment
 LC_NAME = ru_RU.UTF-8
 # environment
@@ -77,19 +77,15 @@ VSCODE_CWD = /home/alexey
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/alexey/.poetry/bin:/home/alexey/.local/bin:/home/alexey/.nvm/versions/node/v15.2.1/bin:/home/alexey/.poetry/bin:/home/alexey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/alexey/.config/composer/vendor/bin:/home/alexey/.local/bin:/home/alexey/.poetry/bin
+PATH = /home/alexey/.poetry/bin:/home/alexey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/ws:@/tmp/.ICE-unix/1719,unix/ws:/tmp/.ICE-unix/1719
+SESSION_MANAGER = local/ws:@/tmp/.ICE-unix/1732,unix/ws:/tmp/.ICE-unix/1732
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
-# environment
-NVM_BIN = /home/alexey/.nvm/versions/node/v15.2.1/bin
-# environment
-BREAKPAD_DUMP_LOCATION = /home/alexey/.config/Code/exthost Crash Reports
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -97,17 +93,15 @@ VSCODE_LOG_STACK = false
 # environment
 VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=bcad6286-7bdc-4a23-a90e-f7df29d2673a&iid=bcad6286-7bdc-4a23-a90e-f7df29d2673a&sid=bcad6286-7bdc-4a23-a90e-f7df29d2673a","uploadToServer":true}
 # environment
-INVOCATION_ID = 061c955b5bb5470380693abbb4bb91d6
+INVOCATION_ID = 7215f70868674c44a934672afa07647b
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
-# environment
-LS_COLORS = 
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7157
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4225
 # automatic
 %F = $(notdir $%)
 # environment
@@ -119,7 +113,7 @@ PWD = /home/alexey/py_project/python-project-lvl1
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1493
+SSH_AGENT_PID = 1658
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -129,13 +123,9 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProce
 # environment
 HOME = /home/alexey
 # environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
-# environment
 LOGNAME = alexey
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# environment
-NVM_CD_FLAGS = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -156,8 +146,6 @@ QT_IM_MODULE = ibus
 SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ef5a32aa-5a3f-44ef-ae3a-16d2e2f97fa2.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -189,7 +177,7 @@ MFLAGS = -pqrR
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-NVM_DIR = /home/alexey/.nvm
+BREAKPAD_DUMP_LOCATION = /home/alexey/.config/Code/exthost Crash Reports
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
@@ -206,8 +194,6 @@ LC_NUMERIC = ru_RU.UTF-8
 <F = $(notdir $<)
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# environment
-PS1 = \[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \w\[\033[0;32m\] [$(git branch 2>/dev/null | grep "^*" | colrm 1 2)\[\033[0;32m\]]\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\]\[\033[0m\] 
 # environment
 LC_MEASUREMENT = ru_RU.UTF-8
 # environment
@@ -233,9 +219,9 @@ LC_ADDRESS = ru_RU.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 7157
+VSCODE_PID = 4225
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=21/137=15%
+# Load=105/1024=10%, Rehash=0, Collisions=19/130=15%
 
 # Pattern-specific Variable Values
 
@@ -257,8 +243,15 @@ package-install:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 14):
+#  recipe to execute (from 'Makefile', line 29):
 	python3 -m pip install --user dist/*.whl
+
+brain-prime:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	poetry run brain-prime
 
 # Not a target:
 all:
@@ -266,6 +259,13 @@ all:
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
+
+brain-gcd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	poetry run brain-gcd
 
 brain-games:
 #  Implicit rule search has not been done.
@@ -277,7 +277,10 @@ brain-games:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-06-10 17:50:57.641908363
+#  Last modified 2021-06-11 17:17:56.265911596
+ 
+make: *** No rule to make target 'all'.  Stop.
+ 
 #  File has been updated.
 #  Successfully updated.
 
@@ -285,30 +288,48 @@ build:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 8):
+#  recipe to execute (from 'Makefile', line 23):
 	poetry build
+
+brain-calc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	poetry run brain-calc
 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
-make: *** No rule to make target 'all'.  Stop.
- 
+
+brain-even:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	poetry run brain-even
 
 publish:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 11):
+#  recipe to execute (from 'Makefile', line 26):
 	poetry publish --dry-run
+
+brain-progression:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	poetry run brain-progression
 
 lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 17):
+#  recipe to execute (from 'Makefile', line 32):
 	poetry run flake8 brain_games
 
 install:
@@ -319,19 +340,19 @@ install:
 	poetry install
 
 # files hash-table stats:
-# Load=10/1024=1%, Rehash=0, Collisions=0/20=0%
+# Load=15/1024=1%, Rehash=0, Collisions=0/25=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 216 B / avg = 9 B
-# current buf: size = 8162 B / used = 216 B / count = 24 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 278 B / avg = 9 B
+# current buf: size = 8162 B / used = 278 B / count = 29 / avg = 9 B
 
-# strcache performance: lookups = 34 / hit rate = 29%
+# strcache performance: lookups = 44 / hit rate = 34%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=1/34=3%
-# Finished Make data base on Fri Jun 11 10:05:55 2021
+# Load=29/8192=0%, Rehash=0, Collisions=1/44=2%
+# Finished Make data base on Sat Jun 12 17:37:24 2021
 
  
