@@ -9,12 +9,12 @@ def make_progression(base, increment, hiding_posission, progression_length):
     while i < progression_length:
         current = base + increment * (i - 1)
         if i == hiding_posission:
-            progression_stringify += '..., '
+            progression_stringify += '.. '
         else:
-            progression_stringify += str(current) + ', '
+            progression_stringify += str(current) + ' '
         i += 1
     if hiding_posission == progression_length:
-        progression_stringify += '...'
+        progression_stringify += '..'
     else:
         progression_stringify += str(base +
                                      increment * (progression_length - 1))
