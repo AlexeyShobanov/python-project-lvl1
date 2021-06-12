@@ -16,8 +16,8 @@ def make_progression(base, increment, hiding_posission, progression_length):
     if hiding_posission == progression_length:
         progression_stringify += '..'
     else:
-        progression_stringify += str(base +
-                                     increment * (progression_length - 1))
+        current = base + increment * (progression_length - 1)
+        progression_stringify += str(current)
     return progression_stringify
 
 
