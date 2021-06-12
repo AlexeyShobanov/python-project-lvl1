@@ -7,7 +7,7 @@ def run_game(description, game):
     i = 1
     while i <= 3:
         if not game():
-            print("Let's try again, {}".format(name))
+            print("Let's try again, {}!".format(name))
             return
         i += 1
     print("Congratulations, {}!".format(name))
