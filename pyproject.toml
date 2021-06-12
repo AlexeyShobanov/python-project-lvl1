@@ -6,7 +6,7 @@ name = "hexlet-code"
 packages = [
   {include = "brain_games"},
 ]
-version = "0.6.2"
+version = "0.6.3"
 
 [tool.poetry.dependencies]
 prompt = "^0.4.1"
